@@ -6,4 +6,4 @@ This is a Chrome and Firefox extension that allows you to sort listings on [turn
 
 [![chrome](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_496x150.png)](https://chrome.google.com/webstore/detail/turnip-exchange-sort/obmccfkghnlpgnkbmhnpooehpkgpmfkl?hl=en&authuser=0)
 
-Firefox pending approval
+[![firefox](https://fingertips.dev/img/get-the-addon.png)](https://addons.mozilla.org/en-US/firefox/addon/turnip-exchange-sort/)
