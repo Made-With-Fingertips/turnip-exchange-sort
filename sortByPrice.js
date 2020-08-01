@@ -1,7 +1,7 @@
-let rawNotes = document.getElementsByClassName("note");
+var rawNotes = document.getElementsByClassName("note");
 
-let notes = {};
-let prices = {};
+var notes = {};
+var prices = {};
 
 for (let index = 0; index < rawNotes.length; index++) {
     const element = rawNotes[index];
@@ -15,10 +15,10 @@ for (let index = 0; index < rawNotes.length; index++) {
     }
 }
 
-let keys = Object.keys(prices);
+var keys = Object.keys(prices);
 keys.sort(function(a, b) { return prices[b] - prices[a] });
 
-let noteContainer = document.getElementsByClassName("grid grid-flow-row grid-cols-2 sm:grid-cols-3 gap-8 justify-items-center items-center mb-4");
+var noteContainer = document.getElementsByClassName("grid grid-flow-row grid-cols-2 sm:grid-cols-3 gap-8 justify-items-center items-center mb-4");
 if (noteContainer[0]) {
     noteContainer[0].innerHTML = "";
 
